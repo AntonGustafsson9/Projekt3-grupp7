@@ -1,0 +1,97 @@
+/*Detta är bara placeholder-text som vi kan ändra på när vi vet alla detaljer hur vi vill lägga upp allt*/
+
+
+
+
+header{
+  width: 300px;
+  height: 200px;
+  background-image: url(ELEKTROLUXLOGO.PNG?); /*förslagsvis kanske en logo här?*/
+  background-repeat: no-repeat;
+  float: left;
+
+}
+body{
+  background-color: #ffffff;
+  font-family: Verdana, Helvetica, sans-serif; /*Samma här, typsnitt och färg etc, kan vi bara byta sen*/
+  line-height: 1.5;
+  font-size: 1em;
+}
+
+
+nav ul{
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  background-color: #00105E;
+  /*background-image: linear-gradient(90deg #00105E #0824AF #ffffff);*/
+  border-top-left-radius: 20px 20px;
+  border-top-right-radius: 20px 20px;
+  width: 500px;
+  margin-left: auto;
+  margin-right: auto;
+  border: 2px solid #000000;
+  position:
+}
+nav li{
+  float: left;
+}
+li a{
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 10px 10px;
+}
+main{
+
+  /*placeholder*/
+
+}
+aside{
+  float: right;
+  width: 300px;
+  background-color: #E1E7FF;
+  border-top-left-radius: 50px 50px;
+  border-top-right-radius: 50px 50px;
+  /*Kodade ingen aside i min uppgift så vet inte riktigt hur den reagerar på kod, så får testa oss fram här.*/
+}
+section{
+  width: 90%;
+  margin-left: 20px;
+  font-size: 90%;
+}
+h1, h2, h3{
+  font-family: "Times New Roman", Serif;
+  color: #00105E;
+  text-transform: capitalize;
+}
+h1{
+  font-size: 250%;
+  text-align: center;
+  text-transform: Uppercase;
+}
+h2{
+  font-size: 170%;
+  text-transform: uppercase;
+}
+h3{
+  font-size: 130%;
+}
+figure{
+  margin-left: auto;
+  margin-right: auto;
+}
+figcaption{
+  font-size: 0.8em;
+}
+                /*om vi lägger klasser på bilderna kanske detta kan vara en lösning för att sortera dem?*/
+.odd{
+  float:left;
+}
+.even{
+float: right;
+}
+footer{
+  background-color: #00105E;
+  color: white;
+}
